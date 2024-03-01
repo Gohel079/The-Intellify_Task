@@ -3,7 +3,7 @@
 A new Flutter project.
 
 
-NOTES : In this project, there seems to be an issue with fetching photos from the Google Photo API but still do the setting up and calling the API.
+**NOTES :** In this project, there seems to be an issue with fetching photos from the Google Photo API but still do the setting up and calling the API.
 
 ## Features
 
