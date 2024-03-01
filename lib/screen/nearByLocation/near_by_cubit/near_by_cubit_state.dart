@@ -1,6 +1,7 @@
 import 'package:geolocator/geolocator.dart';
 
-import '../../model/near_by_location_response_model.dart';
+import '../../../model/near_by_location_response_model.dart';
+
 
 abstract class NearByState {}
 

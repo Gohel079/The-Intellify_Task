@@ -1,15 +1,15 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:intellify_task/model/near_by_location_response_model.dart';
-import 'package:intellify_task/nearByLocation/near_by_cubit/near_by_cubit_state.dart';
 import 'package:intellify_task/network/api_repository.dart';
 import 'package:permission_handler/permission_handler.dart';
+
+import 'near_by_cubit_state.dart';
 
 class NearByCubit extends Cubit<NearByState>{
 
 
   NearByCubit():super(LocationLoadingState()){
-    // getCurrentLocation();
   }
   List<Result> resultList = [];
   List<String> photoList = [];

@@ -1,13 +1,13 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intellify_task/details_screen/details_cubit.dart';
-import 'package:intellify_task/details_screen/details_cubtit_state.dart';
 import 'package:intellify_task/model/place_details_response_model.dart';
 
+import '../../app_style/app_colors.dart';
+import '../../app_style/app_font_style.dart';
+import 'details_cubit.dart';
+import 'details_cubtit_state.dart';
 
-import '../app_style/app_colors.dart';
-import '../app_style/app_font_style.dart';
 
 class DetailsScreen extends StatefulWidget {
   String? placeId;

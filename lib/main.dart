@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intellify_task/nearByLocation/near_by_cubit/near_by_cubit.dart';
+import 'package:intellify_task/screen/nearByLocation/near_by_cubit/near_by_cubit.dart';
+import 'package:intellify_task/screen/nearByLocation/near_by_location_screen.dart';
 
-import 'nearByLocation/near_by_location_screen.dart';
 
 void main() {
   runApp(const MyApp());

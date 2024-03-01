@@ -1,7 +1,7 @@
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intellify_task/model/place_details_response_model.dart' as detail;
-import '../network/api_repository.dart';
+import '../../network/api_repository.dart';
 import 'details_cubtit_state.dart';
 
 class DetailsCubit extends Cubit<DetailsState> {

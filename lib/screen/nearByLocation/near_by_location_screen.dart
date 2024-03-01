@@ -1,14 +1,14 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:intellify_task/details_screen/details_cubit.dart';
-import 'package:intellify_task/details_screen/details_screen.dart';
 import 'package:intellify_task/model/near_by_location_response_model.dart';
-import 'package:intellify_task/nearByLocation/near_by_cubit/near_by_cubit.dart';
-import 'package:intellify_task/nearByLocation/near_by_cubit/near_by_cubit_state.dart';
 
-import '../app_style/app_colors.dart';
-import '../app_style/app_font_style.dart';
+import '../../app_style/app_colors.dart';
+import '../../app_style/app_font_style.dart';
+import '../details_screen/details_cubit.dart';
+import '../details_screen/details_screen.dart';
+import 'near_by_cubit/near_by_cubit.dart';
+import 'near_by_cubit/near_by_cubit_state.dart';
 
 class NearByLocationScreen extends StatefulWidget {
   const NearByLocationScreen({super.key});
@@ -50,7 +50,7 @@ class _NearByLocationScreenState extends State<NearByLocationScreen> {
             },
           ),
         ],
-        title: Text('Hello, G Test', style: styleLarge1.copyWith(
+        title: Text('Hello,User', style: styleLarge1.copyWith(
           color: black,
         ),),
       ),
