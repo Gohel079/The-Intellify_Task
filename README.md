@@ -2,15 +2,34 @@
 
 A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+NOTES : In this project, there seems to be an issue with fetching photos from the Google Photo API but still do the setting up and calling the API.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Fetch nearby locations using the Google Places API
+- Display locations in a carousel slider
+- Fetch and display photos associated with each location using the Google Photo API
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Plugins Used
+
+- dio: ^5.4.1
+- pretty_dio_logger: ^1.3.1
+- carousel_slider: ^4.2.1
+- geolocator: ^11.0.0
+- flutter_bloc: ^8.1.3
+- permission_handler: ^11.0.1
+
+
+## Setup
+
+1. Clone this repository to your local machine.
+2. Open the project in Android Studio or Visual Studio Code.
+3. Ensure that you have Flutter installed on your machine.
+4. Run `flutter pub get` to install the dependencies.
+5. Connect your device or emulator and run the application using `flutter run`.
+
+## Troubleshooting
+
+If you encounter any issues while running the application or setting up the project, please refer to the official documentation of each plugin used. Additionally, feel free to reach out to the project maintainers for assistance.
